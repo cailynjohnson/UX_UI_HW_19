@@ -103,6 +103,17 @@ img {
     top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
+    @media screen and (max-width: $breakpoint-mobile) {
+        h1 {
+            font-size: 16px;
+        }
+        #display {
+            font-size: 40px;
+        }
+        h3 {
+            font-size: 14px;
+        }
+    }
 }
 
 
@@ -123,6 +134,15 @@ img {
     @media screen and (max-width: $breakpoint-mobile) {
         flex-direction: column;
         text-align: center;
+        margin-bottom: 5rem;
+    }
+}
+
+.second-child {
+    @media screen and (max-width: $breakpoint-mobile) {
+        display: flex;
+        flex-direction: column-reverse;
+        text-align: center;
     }
 }
 
@@ -134,17 +154,27 @@ img {
     margin-bottom: 5rem;
 }
 
+.portfolio-img:first-child {
+    margin-right: 5rem;
+    @media screen and (max-width: $breakpoint-mobile) {
+        margin-right: 0rem;
+    }
+}
+
+.portfolio-img:last-child {
+    margin-right: 5rem;
+    @media screen and (max-width: $breakpoint-mobile) {
+        margin-right: 0rem;
+    }
+}
+
+
 .portfolio-img {
     flex: 1;
 }
 
 .portfolio-description {
     flex: 1.5;
-}
-
-
-.has-margin-right {
-    margin-right: 5rem;
 }
 
 
@@ -397,3 +427,9 @@ h4 {
 
 
 /* animations */
+
+.fade {
+    margin: 50px;
+    padding: 50px;
+    opacity: 1;
+  }
