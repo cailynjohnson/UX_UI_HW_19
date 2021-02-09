@@ -204,9 +204,9 @@ img {
     align-content: center;
     margin-right: 5rem;
 
-    #display {
+    h1 {
         font-size: 60px;
-        margin: 0px;
+        margin: 15px;
         @media screen and (max-width: $breakpoint-mobile) {
             font-size: 40px;
             letter-spacing: 5px;
@@ -329,22 +329,22 @@ footer ul {
 
 
 /* fonts  */
-#display {
+h1 {
     font-family: "Unica One", sans-serif;
     font-size: 80px;
     font-weight: 500;
     letter-spacing: 10px;
 }
 
-h1 {
+h2 {
     font-family: "Gesta";
-    font-size: 20px;
+    font-size: 40px;
     font-weight: 500;
     letter-spacing: 5px;
     line-height: 1.6;
 }
 
-h2 {
+h3 {
     font-family: "Gesta";
     font-size: 24px;
     font-weight: 500;
@@ -352,7 +352,15 @@ h2 {
     line-height: 1.6;
 }
 
-h3 {
+h4 {
+    font-family: "Gesta";
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 5px;
+    line-height: 1.6;
+}
+
+h5 {
     font-family: "Gesta";
     font-size: 16px;
     font-weight: 500;
@@ -360,13 +368,6 @@ h3 {
     line-height: 1.6;
 }
 
-h4 {
-    font-family: "Gesta";
-    font-size: 40px;
-    font-weight: 500;
-    letter-spacing: 5px;
-    line-height: 1.6;
-}
 
 
 /* icons/logos/buttons */
@@ -424,6 +425,11 @@ h4 {
     font-size: 14px;
 }
 
+
+.video {
+    text-align: center;
+    margin: 5px;
+}
 
 
 /* animations */
