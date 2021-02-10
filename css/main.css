@@ -269,7 +269,7 @@ img {
 
 .bio h1 {
   font-size: 60px;
-  margin: 15px;
+  margin: 0px;
 }
 
 @media screen and (max-width: 600px) {
