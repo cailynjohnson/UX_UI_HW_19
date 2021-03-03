@@ -25,7 +25,6 @@ p {
 
 img {
     width: 100%;
-    border-radius: 5px;
 }
   
 
@@ -104,16 +103,35 @@ img {
     left: 50%;
     transform: translate(-50%, -50%);
     @media screen and (max-width: $breakpoint-mobile) {
+        h4 {
+            font-size: 18px;
+            letter-spacing: 4px;
+        }
         h1 {
-            font-size: 16px;
+            font-size: 36px;
+            letter-spacing: 8px;
+        }
+        h5 {
+            font-size: 14px;
         }
         #display {
             font-size: 40px;
+        }
+        .personal-statement {
+            width: 400px;
+            margin-top: 100px;
+            line-height: 24px;
         }
         h3 {
             font-size: 14px;
         }
     }
+}
+
+.personal-statement {
+    font-size: 16px;
+    margin: 40px;
+    line-height: 32px;
 }
 
 
@@ -295,10 +313,78 @@ img {
 }
 
 
+/* things i love section */
+.things-i-love {
+    width: 90%;
+    max-width: 120rem;
+    margin: 0 auto;
+    padding: 20px 40px;
+    text-align: center;
+}
+
+#upper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    margin-top: 60px;
+    @media screen and (max-width: $breakpoint-mobile) {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+#lower {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: baseline;
+    margin-bottom: 60px;
+    @media screen and (max-width: $breakpoint-mobile) {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+.landscape-item {
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 450px;
+    width: 450px;
+    @media screen and (max-width: $breakpoint-mobile) {
+        height: 375px;
+        width: 500px;
+        margin: 10px;
+    }
+}
+
+.portrait-item {
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 450px;
+    width: 450px;
+    @media screen and (max-width: $breakpoint-mobile) {
+        height: 500px;
+        width: 375px;
+        margin: 10px;
+    }
+}
+
+.landscape-img {
+    height: 300px;
+    width: 400px;
+}
+
+.portrait-img {
+    height: 400px;
+    width: 300px;
+}
+
+
 
 /* footer section */
 footer {
-    height: 500px;
+    height: 400px;
     width: 100%;
     background-color: #101010;
     color: white;
@@ -430,12 +516,3 @@ h5 {
     text-align: center;
     margin: 5px;
 }
-
-
-/* animations */
-
-.fade {
-    margin: 50px;
-    padding: 50px;
-    opacity: 1;
-  }
