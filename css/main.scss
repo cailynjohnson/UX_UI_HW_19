@@ -191,6 +191,7 @@ img {
     flex: 1;
 }
 
+
 .portfolio-description {
     flex: 1.5;
 }
@@ -516,3 +517,13 @@ h5 {
     text-align: center;
     margin: 5px;
 }
+
+.come-in {
+    transform: translateY(100px);
+    animation: come-in 1s ease forwards;
+  }
+  
+  @keyframes come-in {
+    to { transform: translateX(0); }
+  }
+

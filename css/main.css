@@ -671,4 +671,25 @@ h5 {
   text-align: center;
   margin: 5px;
 }
+
+.come-in {
+  -webkit-transform: translateY(100px);
+          transform: translateY(100px);
+  -webkit-animation: come-in 1s ease forwards;
+          animation: come-in 1s ease forwards;
+}
+
+@-webkit-keyframes come-in {
+  to {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+}
+
+@keyframes come-in {
+  to {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+}
 /*# sourceMappingURL=main.css.map */
