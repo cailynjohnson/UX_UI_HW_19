@@ -5,6 +5,8 @@ $breakpoint-mobile: 600px;
 body, html {
     height: 100%;
     width: 100%;
+    margin: 0;
+    padding: 0;
     font-family: "Gesta", sans-serif;
   }
 
@@ -19,8 +21,8 @@ a {
 }
 
 p {
-    font-size: 14px;
-    line-height: 1.5
+    font-size: 16px;
+    line-height: 1.6
 }
 
 img {
@@ -249,6 +251,12 @@ img {
         border-radius: 50%;
         padding: 20px;
     }
+
+    .headshot2 {
+        height: 300px;
+        width: 300px;
+        padding: 20px;
+    }
 }
 
 
@@ -380,6 +388,38 @@ img {
     height: 400px;
     width: 300px;
 }
+
+
+/* contact section */
+.contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top:25px;
+}
+.contact-container {
+    background-color:  #FBF6E8;
+    height: 400px;
+    width: 800px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.contact-items {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 25px;
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 
 
 

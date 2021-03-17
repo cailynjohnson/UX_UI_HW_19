@@ -2,6 +2,8 @@
 body, html {
   height: 100%;
   width: 100%;
+  margin: 0;
+  padding: 0;
   font-family: "Gesta", sans-serif;
 }
 
@@ -16,8 +18,8 @@ a {
 }
 
 p {
-  font-size: 14px;
-  line-height: 1.5;
+  font-size: 16px;
+  line-height: 1.6;
 }
 
 img {
@@ -325,6 +327,12 @@ img {
   padding: 20px;
 }
 
+.photo .headshot2 {
+  height: 300px;
+  width: 300px;
+  padding: 20px;
+}
+
 /* skills section */
 .skills {
   background-color: #FBF6E8;
@@ -524,6 +532,60 @@ img {
 .portrait-img {
   height: 400px;
   width: 300px;
+}
+
+/* contact section */
+.contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  margin-top: 25px;
+}
+
+.contact-container {
+  background-color: #FBF6E8;
+  height: 400px;
+  width: 800px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.contact-items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  margin: 25px;
+}
+
+.contact-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 /* footer section */
